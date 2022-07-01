@@ -1,0 +1,72 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background: url("./background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title {
+    margin-top: 50px;
+    width: 500px;
+    height: 80px;
+    background-color: rgb(0 0 0 / 75%);
+    color: white;
+    text-align: center;
+    display: grid;
+    align-content: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.formBody {
+    margin: 0;
+    width: 500px;
+    height: 420px;
+    background-color: rgb(202 230 248 / 72%);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#name, #email,#password {
+    border-radius: 20px;
+    margin-top: 20px;
+    border: 0;
+    width: 350px;
+    height: 38px;
+    background-color: aliceblue;
+}
+
+.NameInputIcon {
+    padding-left: 55px;
+    background: url("./profile-user.png") no-repeat left;
+    background-size: 45px;
+}
+
+.EmailInputIcon {
+    padding-left: 55px;
+    background: url("./email.png") no-repeat left;
+    background-size: 45px;
+}
+
+.PasswordInputIcon {
+    padding-left: 55px;
+    background: url("./padlock.png") no-repeat left;
+    background-size: 45px;
+}
+
+#genders {
+    padding-top: 1px;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 20px;
+}
